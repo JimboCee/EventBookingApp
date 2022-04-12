@@ -40,6 +40,7 @@
     background-color: #6d76f7;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    
 }
 
 .fa-bars {
@@ -78,7 +79,7 @@
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 10;
     }
 
     .nav-links {
