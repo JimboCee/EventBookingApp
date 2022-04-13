@@ -1,31 +1,45 @@
 import React from 'react'
-import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesElements';
+import { ServicesContainer, ServicesH1, ServicesIcon, ServicesH2, ServicesP, ServicesCardMusic, ServicesCardSport, ServicesCardTheatre, ServicesCardRewards} from './ServicesElements';
+import { Text } from 'react-native-web';
 
 
 const Services = () => {
   return (
       <ServicesContainer id="services">
-          <ServicesH1>Events Near You</ServicesH1>
-          <ServicesWrapper>
-              <ServicesCard>
-                  <ServicesIcon icon="fa-solid fa-futbol"/>
-                  <ServicesH2>Sport</ServicesH2>
-                  <ServicesP>Enjoy High-Action Sporting Events with the Best Seats in the House</ServicesP>
-              </ServicesCard>
+          
+        <ServicesCardSport>
+            <ServicesH1>Sports</ServicesH1>
+            <ServicesH2>Experience Sporting Events</ServicesH2>
+            <Text>See Events</Text>
 
-              <ServicesCard>
-                  <ServicesIcon icon="fa-solid fa-amp-guitar" />
-                  <ServicesH2>Music</ServicesH2>
-                  <ServicesP>Local Gigs to World Tours</ServicesP>
-              </ServicesCard>
+        </ServicesCardSport>
 
-              <ServicesCard>
-                  <ServicesIcon icon="fa-solid fa-masks-theater" />
-                  <ServicesH2>Theatre</ServicesH2>
-                  <ServicesP>Thespians, Musicals and Monologues</ServicesP>
-              </ServicesCard>
-          </ServicesWrapper>
+        <ServicesCardMusic>
+            <ServicesH1>Concerts</ServicesH1>
+            <ServicesH2>Move, Groove and Shake It</ServicesH2>
+            <Text>See Events</Text>
+
+        </ServicesCardMusic>
+
+        <ServicesCardTheatre>
+            <ServicesH1>Theatre</ServicesH1>
+            <ServicesH2>West-End Shows</ServicesH2>
+            <Text>See Events</Text>
+
+        </ServicesCardTheatre>
+
+        <ServicesCardRewards>
+            <ServicesH1>Rewards</ServicesH1>
+            <ServicesH2>Join Our Rewards Program!</ServicesH2>
+            <Text>Join Today!</Text> 
+        
+
+        </ServicesCardRewards>
+
+
+          
       </ServicesContainer>
+      
   )
 }
 

@@ -3,6 +3,7 @@ import img from '../media/crowd.jpg'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
 import {Button} from '../buttonElement';
 
+
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
     
@@ -17,9 +18,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
         <HeroH1>What's Good In...</HeroH1>
-        <HeroP>
-            USER LOCATION/USER SEARCH
-        </HeroP>
+        <text>searchbar</text>
         <HeroBtnWrapper>
             <Button to="signin" onMouseEnter={onHover}
             onMouseLeave={onHover}
