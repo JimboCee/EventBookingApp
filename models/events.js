@@ -8,6 +8,7 @@ const eventSchema = mongoose.Schema({
     date: String,
     
     
-})
+},
+{versionKey: false})
 
 module.exports.Events = mongoose.model('events', eventSchema )

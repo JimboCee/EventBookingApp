@@ -1,6 +1,9 @@
 const createError = require('http-errors');
 const { ObjectId } = require('mongodb');
 const {Events} = require('./models/events.js')
+const {User} = require ('./models/user.js')
+
+
 
 exports.index = async function (req,res) {
     Events.find()
