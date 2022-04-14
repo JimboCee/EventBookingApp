@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import './App.css';
 import HeroSection from './components/HeroSection';
 import Services from './components/services';
-// import { ServicesWrapper } from './components/services/ServicesElements';
+import Footer from './components/Footer';
 
 
 
@@ -11,12 +11,11 @@ import Services from './components/services';
 function App() {
   return (
     <div className='App'>
+      
       <Navbar />
       <HeroSection />
-      
       <Services />
-      
-
+      <Footer />
       
     </div>     
   )
