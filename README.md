@@ -41,4 +41,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Architects
 
-J. Cranham, A.Qudoos, N.Ahmed © 2022
+J. Cranham, A.Qudoos, N.Ahmed -  2022
